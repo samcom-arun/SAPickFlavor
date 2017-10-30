@@ -22,7 +22,9 @@ s.homepage = "https://github.com/samcom-arun/SAPickFlavor"
 
 
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
-s.source = { :git => "https://github.com/samcom-arun/SAPickFlavor.git", :tag => "#{s.version}"}
+s.source = { :git => "https://github.com/samcom-arun/SAPickFlavor.git", :tag => s.version.to_s}
+
+
 
 # For example,
 # s.source = { :git => "https://github.com/JRG-Developer/SAPickFlavor.git", :tag => "#{s.version}"}
